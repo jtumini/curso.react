@@ -1,4 +1,4 @@
-import { useContext, useEffect } from 'react'
+import { useEffect } from 'react'
 import { useState } from 'react'
 import './ItemListContainer.scss'
 import  ItemList  from '../ItemList/ItemList' 

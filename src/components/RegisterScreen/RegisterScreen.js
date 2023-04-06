@@ -1,7 +1,5 @@
 import { useContext, useState } from 'react'
 import { Link } from 'react-router-dom';
-// import { BiMailSend } from 'react-icons/bi'
-// import { useInRouterContext } from 'react-router-dom'
 import { LoginContext } from '../../context/LoginContext'
 import './RegisterScreen.scss'
 
@@ -40,7 +38,7 @@ const LoginScreen = () => {
                         type={'text'}
                         onChange={handleInputChange}
                         className='form-control'
-                        placeholder='tu email'
+                        placeholder='Email'
                         name='email'
                     />
                     <input 
@@ -48,11 +46,13 @@ const LoginScreen = () => {
                         type={'password'}
                         onChange={handleInputChange}
                         className='form-control my-3'
-                        placeholder='password'
+                        placeholder='Password'
                         name='password'
                     />
                     <button className='btn btn-primary' type='submit'>Crear usuario</button>
-                    <Link to="/login"> Ya estoy registrado, logearme</Link>
+                    <Link to="/login">
+                        <button className='btn btn-outline-primary my-2 mx-2' type='submit'>Ya estoy registrado, logearme</button>
+                    </Link>
                 </form>
 
                 </div>

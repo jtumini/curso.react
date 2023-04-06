@@ -112,7 +112,7 @@ const Checkout = () => {
                 value={values.nombre}
                 type={'text'}
                 placeholder='Nombre'
-                className="form-control my-2 "
+                className="form-control input my-2 "
             />
             <input
                 name= "direccion"  
@@ -120,7 +120,7 @@ const Checkout = () => {
                 value={values.direccion}
                 type={'text'}
                 placeholder='Direccion'
-                className="form-control my-2 "
+                className="form-control input my-2 "
             />
             <input
                 name= "email"
@@ -128,7 +128,7 @@ const Checkout = () => {
                 value={values.email}
                 type={'text'}
                 placeholder='Email'
-                className="form-control my-2  "
+                className="form-control input my-2  "
             />
 
             <button className="btn btn-primary " type="submit">Enviar</button>

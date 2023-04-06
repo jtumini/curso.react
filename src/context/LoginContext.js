@@ -27,7 +27,15 @@ export const Loginprovider = ({children}) => {
 
     const register = (values) =>{
         createUserWithEmailAndPassword(auth, values.email, values.password)
-            .catch((err) => console.log(err))
+            .catch((err) => {
+                if (err.code === "auth/invalid-email"){
+                    alert("El correo debe tener el formato: correo@dominio.com");
+                    }else if (err.code === "auth/weak-password"){
+                        alert("La contraseña debe tener al menos 6 caracteres")
+                    } else {
+                        alert(err.message);
+                        }
+            } ) 
     }
 
     const logout = () => {

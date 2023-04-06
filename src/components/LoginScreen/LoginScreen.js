@@ -1,7 +1,5 @@
 import { useContext, useState } from 'react'
 import { Link } from 'react-router-dom';
-// import { BiMailSend } from 'react-icons/bi'
-// import { useInRouterContext } from 'react-router-dom'
 import { LoginContext } from '../../context/LoginContext'
 import './LoginScreen.scss'
 
@@ -54,8 +52,13 @@ const LoginScreen = () => {
                         placeholder='password'
                         name='password'
                     />
-                    <button className='btn btn-primary' type='submit'>Login</button>
-                    <Link to="/register">Registrarme</Link>
+                    <button className='btn btn-primary my-2' type='submit'>Login</button>
+                    
+                    <Link to="/register">
+                        <button className='btn btn-outline-primary my-2 mx-2' type='submit'>
+                            Registrarme
+                        </button>
+                    </Link>
                 </form>
 
                 <button className='btn btn-outline-primary' onClick={googleLogin} > Logearme con google</button>
