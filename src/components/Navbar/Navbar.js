@@ -18,22 +18,22 @@ export const Navbar = () => {
                 <nav className="navbar" >
                     <ButtonGroup aria-label="Basic example" size="lg" >
                         <Link to="/productos/Futbol11">
-                            <Button variant="success">Futbol 11</Button>
+                            <Button  variant="success" className="mx-1">Futbol 11</Button>
                         </Link>
                         <Link to="/productos/FutbolSala">
-                            <Button variant="success">Futbol sala</Button>
+                            <Button variant="success" className="mx-1">Futbol sala</Button>
                         </Link>
                         <Link to="/productos/Sintetico">
-                            <Button variant="success">Cesped Sintetico</Button>
+                            <Button variant="success" className="mx-1">Cesped Sintetico</Button>
                         </Link>
                         <Link to="/contacto">
-                            <Button variant="success">Contacto</Button>
+                            <Button variant="success" className="mx-1">Contacto</Button>
                         </Link>
                         <Link to="/nosotros">
-                            <Button variant="success">Nosotros</Button>
+                            <Button variant="success" className="mx-1">Nosotros</Button>
                         </Link>
                         <Link to="/productos">
-                            <Button variant="success">Productos</Button>
+                            <Button variant="success" className="mx-1">Productos</Button>
                         </Link>
                     </ButtonGroup>
                 </nav>
@@ -42,8 +42,8 @@ export const Navbar = () => {
                 
             </div>
             <div className='login-state container'>
-            <h6> Bienvendio {user.email}</h6>
-            <button className='btn btn-danger' onClick={logout}>Logout</button>
+            <h6 className='usuario'> Bienvenido {user.email}</h6>
+            <button className='btn btn-sm btn-danger' onClick={logout}>Logout</button>
             </div>
         </header>
     )

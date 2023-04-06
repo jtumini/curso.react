@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Botines de futsal",
+        "price": 19688,
+        "description": "Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.",
+        "img": "http://dummyimage.com/200x200.png/cc0000/ffffff",
+        "category": "futsal",
+        "stock": 10
+    },
+    {
+        "name": "Lorelei",
+        "price": 38870,
+        "description": "Phasellus in felis. Donec semper sapien a libero. Nam dui.",
+        "img": "http://dummyimage.com/200x200.png/ff4444/ffffff",
+        "category": "futbol 11",
+        "stock": 15
+    },
+    {
+        "name": "Cammy",
+        "price": 25540,
+        "description": "Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.",
+        "img": "http://dummyimage.com/200x200.png/5fa2dd/ffffff",
+        "category": "futbol 11",
+        "stock": 4
+    },
+    {
+        "name": "Ilse",
+        "price": 34077,
+        "description": "Sed ante. Vivamus tortor. Duis mattis egestas metus.",
+        "img": "http://dummyimage.com/200x200.png/5fa2dd/ffffff",
+        "category": "futbol 5",
+        "stock": 1
+    },
+    {
+        "name": "Jeromy",
+        "price": 43804,
+        "description": "Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.",
+        "img": "http://dummyimage.com/200x200.png/dddddd/000000",
+        "category": "futbol 5",
+        "stock": 20
+    },
+    {
+        "name": "Germain",
+        "price": 28045,
+        "description": "Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.",
+        "img": "http://dummyimage.com/200x200.png/cc0000/ffffff",
+        "category": "futsal",
+        "stock": 0
+    }
+]

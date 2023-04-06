@@ -30,7 +30,7 @@ const Cart = () => {
                         <small>Cantidad: {prod.cantidad}</small> 
                         <button 
                             onClick={() => eliminarDelCarrito(prod.id) } 
-                            className="btn btn-danger"
+                            className="btn btn-danger mx-2"
                         >
                             <BiTrash/>
                         </button>
@@ -39,8 +39,8 @@ const Cart = () => {
                 ))
                 }
             <h3>TOTAL: ${totalCompra().toFixed(2)}</h3>
-            <button onClick={vaciarCarrito} className="btn btn-danger">Vaciar Carrito</button>
-            <Link className="btn btn-success" to="/checkout">Terminar mi compra</Link>
+            <button onClick={vaciarCarrito} className="btn btn-danger ">Vaciar Carrito</button>
+            <Link className="btn btn-success mx-2" to="/checkout">Terminar mi compra</Link>
         </div>
     )
 }
